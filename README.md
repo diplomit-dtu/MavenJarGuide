@@ -1,5 +1,4 @@
-# Guide: Byg _executable_ .jar-fil med Maven 
-___Forfatter: Malte B. P.___  
+# Guide: Byg _executable_ .jar-fil med Maven  
 _Senest opdateret 07/09-2020_
 <br>
 <br>
