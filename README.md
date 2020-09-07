@@ -26,6 +26,8 @@ __Vær opmærksom på__:
 
 __1. Lav et Maven-projekt i IntelliJ eller benyt ét du allerede har lavet__
 
+<br>
+
 __2. Opdatér din pom.xml:__  
  - Kopiér følgende ind i din `pom.xml`-fil:
    ```xml
@@ -63,7 +65,9 @@ __2. Opdatér din pom.xml:__
         </plugins>
     </build>
     ```
+    > Se på `pom.xml` i dette projekt for at se, hvor det skal kopieres hen.
 
+<br>
 
 __3. Tilføj din "Main"-klasse:__
 
@@ -71,17 +75,20 @@ __3. Tilføj din "Main"-klasse:__
 
    > Det fulde navn består af klassen (og dermed filens) navn, samt navnet på pakken, som klassen ligger i. Hvis f.eks. din klasse hedder `Program.java`, og ligger i mappen `src/main/java/mypackage/myotherpackage/Program.java` er det fulde navn `mypackage.myotherpackage.Program`, og der skal derfor stå `<mainClass>mypackage.myotherpackage.Program<mainClass>`
 
-
+<br>
 
 __4. Husk at reload dit Maven-projekt:__
  - Højre klik på `pom.xml` og tryk `Maven → Reload project`
  
+ <br>
 
 __5. Byg dit Maven-projekt:__
 
  - Åben Maven-vinduet ved at trykke `View → Tool Windows → Maven` i toolbar'en i toppen af IntelliJ
  
  - I det åbnede vindue gå ind under `Lifecycle` og dobbelt-klik på `package` - din .jar-fil bliver nu bygget til `target` mappen i dit projekt!
+
+<br>
 
 __6. Done!__
 
