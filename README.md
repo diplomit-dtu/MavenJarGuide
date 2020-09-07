@@ -63,11 +63,8 @@ __2. Opdatér din pom.xml:__
         </plugins>
     </build>
     ```
-    
 
-- __Husk__ at opdater dit Maven efterfølgende (højreklik på `pom.xml` og tryk `Maven -> Reload project`)
 
-    
 __3. Tilføj din "Main"-klasse:__
 
  - Ret værdien i elementet `<mainClass>mypackage.Main<mainClass>` i din `pom.xml` fra `mypackage.Main` til det fulde navn på klassen, der indeholder den `main`-metode du gerne vil køre, når jar-fil skal køres.  
@@ -77,12 +74,12 @@ __3. Tilføj din "Main"-klasse:__
 
 
 __4. Husk at reload dit Maven-projekt:__
- - Højre klik på `pom.xml` og tryk `Maven -> Reload project`
+ - Højre klik på `pom.xml` og tryk `Maven → Reload project`
  
 
 __5. Byg dit Maven-projekt:__
 
- - Åben Maven-vinduet ved at trykke `View -> Tool Windows -> Maven` i toolbar'en i toppen af IntelliJ
+ - Åben Maven-vinduet ved at trykke `View → Tool Windows → Maven` i toolbar'en i toppen af IntelliJ
  
  - I det åbnede vindue gå ind under `Lifecycle` og dobbelt-klik på `package` - din .jar-fil bliver nu bygget til `target` mappen i dit projekt!
 
