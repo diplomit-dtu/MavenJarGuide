@@ -91,6 +91,6 @@ __6. Done!__
 
  - .jar-filen bliver ***ikke bygget*** når du kører dit projekt som normalt (dvs. ved at trykke på den grønne pil) 
 
- - Din .jar-fil navngives efter dit `<artifactId>` samt `<version>` i `pom.xml`. Alternativt kan du fjerne kommentaren `<finalName>` og sætte dit navn dér.
+ - Din .jar-fil navngives efter dit `<artifactId>` samt `<version>` i `pom.xml`. Du kan navngive den efter eget valg ved at fjerne kommentaren `<finalName>` og indsætte dit nnavn dér
 
  
